@@ -21,8 +21,9 @@
 				echo '<div class="wrap-content">';
 				the_excerpt();
 				echo '</div>';
+			}else if (get_theme_mod( 'aaron_show_excerpt' )){
+				the_excerpt();
 			}else{
-
 				if ( has_post_thumbnail()){
 					the_post_thumbnail( );
 				}
