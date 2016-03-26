@@ -1,0 +1,25 @@
+/*
+Theme Name: BCWASH child
+Theme URI: 
+Author: 
+Author URI: 
+Description: A child theme for Aaron that adds featured image to excerpts.
+Version: 0.1
+Tags:
+Text Domain: aaron
+Template: Aaron
+
+License: GNU General Public License (GPL), v2 (or newer)
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.wp-post-image,
+.attachment-aaron-featured-posts-thumb,
+.attachment-post-thumbnail{
+	background:#fff;
+	border:1px solid #f2f2f2;
+	border-radius:4px;
+	padding:4px;
+}
+
+.wrap-content{width:80%; float:right;}
